@@ -12,7 +12,7 @@ RUN npm ci
 
 # Copiar código fuente
 COPY src/ ./src/
-COPY .env ./
+
 
 # Instalar ts-node-dev para desarrollo
 RUN npm install -g ts-node-dev
